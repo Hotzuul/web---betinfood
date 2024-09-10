@@ -1,0 +1,132 @@
+<div id="principal">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-top">
+                Pollos Broaster Gaby
+            </a>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Clientes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/cliente/}">Lista de Clientes</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/cliente/nuevo}">Nuevo Cliente</a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/Producto/}">Lista de Productos</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/Producto/nuevo}">Nuevo Producto</a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ventas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/Venta/}">Lista de Ventas</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/Venta/nuevo}">Nueva Venta</a></li>               
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Medios de Pago
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/mediodepago/}">Lista de Medios de Pago</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/mediodepago/nuevo}">Nuevo Medio de Pago</a></li>
+                                    <!--
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    -->
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Comprobante
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/comprobante/}">Lista de Comprobante</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/comprobante/nuevo}">Nuevo Comprobante</a></li>
+                                    <!--
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    -->
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Empleado
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/empleado/}">Lista de Empleados</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/empleado/nuevo}">Nuevo Empleado</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Compra
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/compra/}">Lista de Compra</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/compra/nuevo}">Nueva Compra</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Proveedor
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/proveedor/}">Lista de Proveedores</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/proveedor/nuevo}">Nuevo Proveedor</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Reportes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" th:href="@{/reportev/listaReporteV}">Lista de Reporte Venta</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/reportec/listaReporteC}">Lista de Reporte Compra</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </nav>
+
+</div>
